@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">NotesApp</string>
+    <string-array name="civil">
+        <item>Civil</item>
+    </string-array>
+    <string-array name="computer">
+        <item>Computer Science</item>
+    </string-array>
+    <string-array name="electrical">
+        <item>Electrical</item>
+    </string-array>
+    <string-array name="ece">
+        <item>Electronics</item>
+    </string-array>
+    <string-array name="mech">
+        <item>Mechanical</item>
+    </string-array>
+    <string-array name="mining">
+        <item>Mining</item>
+    </string-array>
+    <string-array name="petro">
+        <item>Petroleum</item>
+    </string-array>
+    <string-array name="enviro">
+        <item>Environment</item>
+    </string-array>
+    <string-array name="minmech">
+        <item>Mining Machinery</item>
+    </string-array>
+    <string-array name="mnc">
+        <item>Mathematics and Computing</item>
+    </string-array>
+    <string-array name="mineral">
+        <item>Mineral</item>
+    </string-array>
+    <string-array name="agl">
+        <item>Geology</item>
+    </string-array>
+    <string-array name="agp">
+        <item>Geophysics</item>
+    </string-array>
+    <string-array name="chemical">
+        <item>Chemical</item>
+    </string-array>
+    <string-array name="ep">
+        <item>Physics</item>
+    </string-array>
+    <string-array name="topics">
+        <item>Assignment-1.pdf</item>
+        <item>Introduction.pdf</item>
+        <item>Steady_state_error.pdf</item>
+    </string-array>
+</resources>

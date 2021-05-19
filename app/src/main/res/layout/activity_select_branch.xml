@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectBranch">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#3EDCA9"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Select Your Branch"
+                android:textColor="#F5FAF8F8"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/csebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Computer Science Engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp1"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/ecebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:onClick="tp2"
+                    android:text="electronics and communication engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/eebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Electrical engineering "
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp3"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/mebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Mechanical engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp4"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/civilbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Civil Engineering"
+                    android:textSize="16sp"
+                    android:onClick="tp5"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/environmentalbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Environmental Engineering"
+                    android:textSize="16sp"
+                    android:onClick="tp6"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/petroliumbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="petroleum Engineering"
+                    android:textSize="16sp"
+                    android:onClick="tp7"
+                    android:textStyle="bold"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/miningbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Mining Engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp8"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/miningmachinarybtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Mining Machinery Engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp9"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/mineralbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Mineral Engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp10"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/chembtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Chemical Engineering"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp11"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/epbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Engineering Physics"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp12"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/mncbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Mathematics and Computing"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp13"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/agpbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Applied Geophysics"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp14"
+                    app:backgroundTint="#3EDCA9" />
+
+                <Button
+                    android:id="@+id/aglbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:padding="10dp"
+                    android:text="Applied Geology"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:onClick="tp15"
+                    app:backgroundTint="#3EDCA9" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
